@@ -1,0 +1,7 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/smartene/lithi-volt.com
+    - /bin/cp dist/index.html $DEPLOYPATH
+    - /bin/cp dist/style.css $DEPLOYPATH
+    - /bin/cp -R assets $DEPLOYPATH
