@@ -3,5 +3,6 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/smartene/lithivolt.com
     - /bin/cp dist/index.html $DEPLOYPATH
+    - /bin/cp dist/.htaccess $DEPLOYPATH
     - /bin/cp dist/output.css $DEPLOYPATH
     - /bin/cp -R dist/assets $DEPLOYPATH
